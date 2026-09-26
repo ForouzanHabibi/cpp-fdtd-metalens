@@ -21,6 +21,26 @@ broadband spectral characterization.
 
 *Normalized electric-field intensity |Ez|² from the finite-device simulation,
 showing the formation of the focal region after the phase-sign correction.*
+
+## Key Results
+
+| Metric | Result |
+|---|---:|
+| Design wavelength | **1550 nm** |
+| Metalens cells | **21** |
+| Aperture diameter | **20 µm** |
+| Target focal distance | **20 µm** |
+| Simulated focus position | **25.62 µm** |
+| Lateral FWHM | **1.38 µm** |
+| Post-lens transmission | **81.32%** |
+| 3×FWHM focusing efficiency | **64.83%** |
+| 3×FWHM focal capture | **87.49%** |
+| Subpixel grid sensitivity in efficiency | **1.11%** |
+| Continuous 80%-retention spectral interval* | **1.43–2.39 µm** |
+
+\*Spectral bandwidth is reported for the current idealized 2D TMz, lossless,
+nondispersive \(n = 2\) model and is not a prediction of a fabricated 3D device.
+
 ## Highlight
 
 - C++17 Yee-FDTD implementation
