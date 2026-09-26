@@ -7,9 +7,21 @@ The project develops a Yee-grid solver in C++, verifies a discrete phase
 library, assembles a finite 21-cell metalens, introduces subpixel dielectric
 averaging, and evaluates focusing efficiency and broadband spectral robustness.
 
-![Final phase library](figures/final_phase_library.png)
+# C++ FDTD Metalens Simulation
 
-## Highlights
+A from-scratch **2D TMz finite-difference time-domain (FDTD)** framework for
+discrete metalens design, numerical validation, focusing analysis, and
+broadband spectral characterization.
+
+## Metalens focusing
+
+<p align="center">
+  <img src="figures/metalens_focal_intensity.png" width="850">
+</p>
+
+*Normalized electric-field intensity |Ez|² from the finite-device simulation,
+showing the formation of the focal region after the phase-sign correction.*
+## Highlight
 
 - C++17 Yee-FDTD implementation
 - 2D TMz electromagnetic propagation
