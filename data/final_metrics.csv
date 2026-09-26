@@ -1,0 +1,22 @@
+metric,value,unit,note
+design_wavelength_nm,1550.0,nm,Design wavelength
+metalens_cells,21.0,count,Number of assigned cells
+aperture_diameter_um,20.0,um,Nominal aperture diameter
+design_focal_distance_um,20.0,um,Target focal distance from phase reference plane
+phase_reference_y_um,8.0,um,Phase reference plane
+nominal_focus_y_um,28.0,um,Nominal focus coordinate
+stabilized_focus_y_um,25.6177,um,25-nm full-device focus
+focal_shift_um,-2.3823,um,Actual minus nominal focus
+lateral_fwhm_um,1.3752,um,25-nm full-device lateral FWHM
+preferred_eta3FWHM,0.64828,fraction,25-nm subpixel focusing efficiency
+preferred_postlens_transmission,0.813204,fraction,25-nm subpixel post-lens transmission
+preferred_capture3FWHM,0.874942,fraction,25-nm subpixel focal capture
+subpixel_eta_grid_change_pct,1.11,%,33.333 to 25 nm eta_3xFWHM change
+subpixel_postT_grid_change_pct,0.27,%,33.333 to 25 nm transmission change
+spectral_eta1550_33nm,0.638485,fraction,Spectral reference at 1550 nm
+spectral_80pct_threshold,0.510788,fraction,80% threshold
+continuous_band_lower_nm,1427.5,nm,Lower 80%-retention edge
+continuous_band_upper_nm,2390.51,nm,First downward upper edge
+continuous_bandwidth_nm,963.01,nm,Continuous 1550-connected 80%-retention bandwidth
+recovery_edge_nm,2434.56,nm,Recovery above threshold
+notch_width_nm,44.05,nm,Below-threshold notch width

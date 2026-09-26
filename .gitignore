@@ -1,0 +1,25 @@
+# Build products
+*.exe
+*.out
+*.o
+*.obj
+build/
+cmake-build-*/
+
+# Generated simulation outputs
+plots/*.csv
+plots/*.txt
+plots/*.png
+!plots/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
